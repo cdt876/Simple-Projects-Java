@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=
+comment1.target=void\ intro()
+comment10.params=players\ board
+comment10.target=void\ play(java.lang.String[],\ char[][])
+comment2.params=key\ players\ user
+comment2.target=int\ getInt(java.util.Scanner,\ java.lang.String[],\ int)
+comment3.params=key\ column\ players\ user
+comment3.target=int\ checkSize(java.util.Scanner,\ int,\ java.lang.String[],\ int)
+comment4.params=
+comment4.target=char[][]\ makeBoard()
+comment5.params=validColumn\ board\ chips\ user\ players
+comment5.target=char[][]\ updateBoard(int,\ char[][],\ char[],\ int,\ java.lang.String[])
+comment6.params=board\ chips\ user\ r\ validColumn\ players
+comment6.target=boolean\ checkWin(char[][],\ char[],\ int,\ int,\ int,\ java.lang.String[])
+comment7.params=board\ players
+comment7.target=boolean\ checkGame(char[][],\ java.lang.String[])
+comment8.params=board\ players
+comment8.target=boolean\ printBoard(char[][],\ java.lang.String[])
+comment9.params=
+comment9.target=java.lang.String[]\ getPlayers()
+numComments=11
