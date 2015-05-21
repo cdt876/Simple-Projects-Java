@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=arg
+comment0.target=void\ main(java.lang.String[])
+comment1.params=encryptedText
+comment1.target=void\ showEncryptedText(java.lang.String)
+comment2.params=encryptedText
+comment2.target=int[]\ getFrequenciesOfCharacters(java.lang.String)
+comment3.params=freqs
+comment3.target=void\ printFrequencies(int[])
+comment4.params=freqs
+comment4.target=char[]\ getDecryptedText(int[])
+comment5.params=text\ key
+comment5.target=java.lang.String\ decryptText(java.lang.String,\ char[])
+comment6.params=console\ key\ enc\ keepPlaying\ freqs
+comment6.target=void\ userManage(java.util.Scanner,\ char[],\ java.lang.String,\ boolean,\ int[])
+numComments=7

@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=numOfRecords\ fileScanner
+comment1.target=void\ processRecords(int,\ java.util.Scanner)
+comment10.params=percent\ dimensions
+comment10.target=char\ getDimension(int,\ java.lang.String)
+comment2.params=name\ letters
+comment2.target=void\ printRecord(java.lang.String,\ char[])
+comment3.params=letters
+comment3.target=int\ percentOfEvsI(char[])
+comment4.params=letters
+comment4.target=int\ percentOfSvsN(char[])
+comment5.params=letters
+comment5.target=int\ percentOfTvsF(char[])
+comment6.params=letters
+comment6.target=int\ percentOfJvsP(char[])
+comment7.params=index\ answers\ letters
+comment7.target=void\ getAnswersOfTheGroup(int,\ char[],\ char[])
+comment8.params=answers
+comment8.target=int\ getPercentageOfB(char[])
+comment9.params=percentages
+comment9.target=java.lang.String\ getPersonalityType(int[])
+numComments=11

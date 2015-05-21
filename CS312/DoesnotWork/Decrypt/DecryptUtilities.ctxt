@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=DecryptUtilities()
+comment1.params=
+comment1.target=java.lang.String\ convertFileToString()
+comment1.text=\r\n\ A\ method\ to\ select\ a\ file\ and\ convert\ it\ to\ a\ String.\r\n\ When\ this\ method\ is\ called\ a\ File\ chooser\ will\ open\ \r\n\ to\ allow\ selection\ of\ the\ file.\ The\ file\ will\ be\ read\ and\ \r\n\ converted\ to\ a\ String.\ Any\ IO\ exceptions\ will\ result\ in\r\n\ an\ empty\ String\ being\ returned.\r\n\ @return\ A\ String\ version\ of\ the\ selected\ file.\r\n
+comment2.params=
+comment2.target=java.io.File\ pickFile()
+comment3.params=freqs
+comment3.target=char[]\ getDecryptionKey(int[])
+comment3.text=\r\n\ Determine\ the\ probable\ key\ to\ decrypt\ a\ message.\r\n\ This\ assumes\ a\ message\ was\ encrypted\ with\ a\ substitution\r\n\ cipher\ and\ and\ the\ 128\ ASCII\ characters.\ \r\n\ @param\ freqs\ the\ frequencies\ of\ characters\ in\ the\ \r\n\ encrypted\ text.\ freq[0]\ is\ the\ frquency\ of\ ASCII\ 0,\r\n\ freq[1]\ is\ the\ frequency\ of\ ASCII\ 1\ and\ so\ forth.\ freqs\ may\r\n\ not\ be\ null\ and\ freqs.length\ must\ equal\ 128.\r\n\ @return\ the\ decryption\ key\ based\ onthe\ frequency\ \r\n\ analysis.\ The\ index\ of\ an\ element\ in\ the\ returned\ array\r\n\ is\ the\ ASCII\ code\ for\ the\ encrypted\ characters\ and\ the\r\n\ element\ is\ the\ probable\ decryption\ charatacter.\r\n
+comment4.params=rawData
+comment4.target=char[]\ makeResult(DecryptUtilities.CharFreqPair[])
+comment5.params=data
+comment5.target=void\ reverse(DecryptUtilities.CharFreqPair[])
+numComments=6

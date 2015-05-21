@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PhraseBank()
+comment0.text=\r\n\ When\ a\ wordbank\ is\ created\ a\ window\ will\ open\ to\r\n\ select\ the\ file\ with\ the\ phrases.\ Each\ line\ in\ the\ file\r\n\ will\ be\ treated\ as\ a\ single\ phrase.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getNextPhrase()
+comment1.text=\r\n\ Call\ this\ method\ to\ get\ the\ next\ phrase.\r\n\ The\ returned\ String\ will\ contain\ upper\ case\r\n\ letters\ are\ spaces\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTopic()
+comment3.params=
+comment3.target=void\ loadWords()
+comment4.params=org
+comment4.target=java.lang.String\ trim(java.lang.String)
+numComments=5
